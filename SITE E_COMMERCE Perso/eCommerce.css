@@ -1,0 +1,263 @@
+* 
+{ 
+    margin: 0;
+    padding: 0;
+}
+
+/* -------HEADER------(MENU et BARRE_FOND_GRIS) */
+
+#menu 
+{
+    background-color: rgb(2, 2, 116);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+/*     position: fixed;
+ */}
+
+ul 
+{
+    list-style-type: none;
+}
+
+header nav ul 
+{
+    list-style-type: none;
+}
+
+header nav ul li 
+{
+    display: inline-block;
+    margin-right: 70px;
+}
+
+a 
+{
+    text-decoration: none;
+}
+header nav ul li a 
+{
+    color: white;
+    display: block;
+    height: 40px;
+    width: 120%;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul li a:hover 
+{
+    color: rgb(2, 2, 116);
+    background: rgba(216, 139, 38, 0.836);  
+    border-radius: 3px; 
+}
+
+#divFondGris 
+{
+    background-color: rgba(231, 226, 226, 0.774);
+    height: 40px;
+}
+
+
+
+
+                                /* SECTTION ANNONCES PREMIUM */
+
+section h1 {
+    padding-top: 10px;
+    font-family: algerian, Arial, Helvetica, sans-serif;
+/*     background-color: orange;
+ */}
+
+#toutVoir a
+{
+    text-align: right;
+    float: right;
+    margin-top: -17px;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(63, 62, 62);
+}
+
+#div_AnnoncesPremium
+{
+    margin-bottom: 250px;
+}
+
+#div_AnnoncesPremium ul
+{
+    margin-top: 10px;
+}
+
+#div_AnnoncesPremium li
+{
+    width: /* 350px */ 349.2px;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#div_AnnoncesPremium ul li p 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+#li_Voiture
+{
+/*  background-color: rgb(0, 26, 255); */    
+    margin-left: 10px;
+}
+
+
+.aLaUne
+{
+    color: white;
+    width: 35%;
+    display: block;
+    background: orange;
+    font-size: 16px;
+    font-family: helvetica;
+}
+
+.gererMesAnnonces
+{
+    color: white;
+    width: 60%;
+    display: inline-block; 
+    background: orange;
+    font-size: 16px;
+    font-family: helvetica;
+    text-align: center;
+}
+
+
+
+
+                                    /* CATEGORIES */
+/* DIV CATEGORIES Ligne1 , DIV CATEGORIES Ligne2*/
+
+#div_Categories1
+{
+    clear: both;
+}
+
+#div_Categories1 ul li, #div_Categories2 ul li
+{
+    background-color: rgba(220, 220, 220, 0.603);
+    width: 346.3px;               /* 349px */
+    height: 200px;
+    display: inline-block;
+    border: rgb(248, 233, 213) 1px solid ;
+    margin-right: 8px;     /* margin-right: 11px; */
+    margin-top: 40px;
+}
+
+#div_Categories1 ul li h4 , #div_Categories2 ul li h4 
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    }
+
+#div_Categories1 ul li p , #div_Categories2 ul li p
+{
+    padding-left: 5px;
+    color: rgb(105,105,105);
+}
+
+#div_Categories1 ul li h5 , #div_Categories2 ul li h5
+{
+    padding-top: 30px;
+    padding-left: 5px;
+    color: orangered;
+    }
+
+#offreEmploi , #animaux
+{
+    margin-left:9.5px ;
+}
+
+#div_Categories2
+{
+    margin-bottom: 100px;
+}
+
+
+                                                /* FOOTER */
+
+#divFondBleuCiel
+{
+    background-color: #b9e8f8;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+/*     width: 100%;
+    height: 60px; */
+}
+
+#divFondBleuBic
+{
+    background-color: rgb(2, 2, 116);
+    height: 50px;
+}
+
+
+
+
+
+                                            
+                                    
+                                    /* additionnel */
+
+footer div form
+{
+    border: 3px double rgb(2, 2, 2) ;
+    width: 400px;
+    padding: 20px;
+/*     text-align: center;
+ */    
+}
+
+footer div img
+{
+    width: 60%;
+    float: right;
+    margin-top: -510px;
+    margin-right: 10px;
+    border: #000000 1px solid;
+}
+
+#divFondBleuBic
+{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+#divFondBleuBic ul li
+{
+    display: inline-block;
+}
+
+#copyright
+{
+    color: grey;
+}
+
+#powered
+{
+    color: grey;
+    margin-left: 750px;
+}
+
+span
+{
+    color: #b9e8f8;
+}
+
+
